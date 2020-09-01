@@ -25,7 +25,7 @@ image.onload = () => {
         }
     }
     
-    ctx.drawImage(imageData, 0,0)
+    ctx.putImageData(imageData, 0,0)
 }
 
 
